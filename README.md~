@@ -1,0 +1,35 @@
+6837_assignment1
+================
+
+6.837 Assignment 1 - Tiffany Lu (tweilu)
+
+TO COMPILE:
+- on Athena Linux, type "make"
+- if there are problems try
+$ ./premake4 gmake
+$ make clean
+$make
+as stated in piazza post
+
+COLLABORATION:
+- none
+
+REFERENCES:
+http://www.idav.ucdavis.edu/education/CAGDNotes/Matrix-Cubic-Bezier-Curve/Matrix-Cubic-Bezier-Curve.html
+For a little more detail on Bezier curves and matrices.
+
+KNOWN PROBLEMS:
+- none
+
+EXTRA CREDIT:
+- none
+
+COMMENTS:
+This assignment took me probably around 10 to 12 hours total.
+The hardest part for me is getting started. Despite attending lecture, I still find myself confused as to how to approach the problems, so I spent a lot of time in the beginning trying to figure out what I'm supposed to do.
+I did learn a lot from doing this assignment, and it definitely helped me understand Bezier/B-spline curves better. Pretty overwhelming still though.
+Generated curve swp/test.swp
+
+Structure:
+- source files in src
+- compiled executable at debug/a1

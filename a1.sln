@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a1", "a1.vcxproj", "{3FEA50C5-788E-544D-9176-3AFA86A3AAE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBE75900-03DE-D040-868E-4CD1D50BE135} = {CBE75900-03DE-D040-868E-4CD1D50BE135}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vecmath", "vecmath\vecmath.vcxproj", "{CBE75900-03DE-D040-868E-4CD1D50BE135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEA50C5-788E-544D-9176-3AFA86A3AAE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FEA50C5-788E-544D-9176-3AFA86A3AAE3}.Debug|Win32.Build.0 = Debug|Win32
+		{3FEA50C5-788E-544D-9176-3AFA86A3AAE3}.Release|Win32.ActiveCfg = Release|Win32
+		{3FEA50C5-788E-544D-9176-3AFA86A3AAE3}.Release|Win32.Build.0 = Release|Win32
+		{CBE75900-03DE-D040-868E-4CD1D50BE135}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBE75900-03DE-D040-868E-4CD1D50BE135}.Debug|Win32.Build.0 = Debug|Win32
+		{CBE75900-03DE-D040-868E-4CD1D50BE135}.Release|Win32.ActiveCfg = Release|Win32
+		{CBE75900-03DE-D040-868E-4CD1D50BE135}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

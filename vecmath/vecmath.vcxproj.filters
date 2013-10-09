@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="include">
+			<UniqueIdentifier>{48EF0E87-7F27-124B-827C-B95E321BB609}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="include\Matrix2f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Matrix3f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Matrix4f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Quat4f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\vecmath.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Vector2f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Vector3f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="include\Vector4f.h">
+			<Filter>include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Matrix2f.cpp" />
+		<ClCompile Include="Matrix3f.cpp" />
+		<ClCompile Include="Matrix4f.cpp" />
+		<ClCompile Include="Quat4f.cpp" />
+		<ClCompile Include="Vector2f.cpp" />
+		<ClCompile Include="Vector3f.cpp" />
+		<ClCompile Include="Vector4f.cpp" />
+	</ItemGroup>
+</Project>
